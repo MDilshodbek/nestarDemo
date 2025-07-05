@@ -4,14 +4,9 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
 const interSans = Inter({
-  variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const interMono = Inter({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function Home() {
   return (
@@ -22,9 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div
-        className={`${styles.page} ${interSans.variable} ${interMono.variable}`}
-      >
+      <div className={`${styles.page}`}>
         <main className={styles.main}>
           <h1>Pages Router</h1>
           <ol>
