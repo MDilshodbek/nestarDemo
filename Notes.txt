@@ -1,0 +1,6 @@
+NextJS - react framework
+folder vs file routing tizimini xosil qlib beradi
+NextJS - client vs Server site rendering
+Caching - improves app performance and reduces costs
+
+NextJS - App Router vs Pages Router
