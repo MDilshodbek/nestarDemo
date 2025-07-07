@@ -1,5 +1,6 @@
 import { Logout } from "@mui/icons-material";
-import { Box, Link, Menu, MenuItem, Stack } from "@mui/material";
+import { Box, Menu, MenuItem, Stack } from "@mui/material";
+import Link from "next/link";
 
 const Top = () => {
   return (
@@ -21,7 +22,7 @@ const Top = () => {
             <Link href={"/agent"}>
               <div>Agents</div>
             </Link>
-            <Link href={"/communty?articleCategory=FREE"}>
+            <Link href={"/community"}>
               <div>Community</div>
             </Link>
             <Link href={"/cs"}>
