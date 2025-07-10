@@ -4,3 +4,6 @@ NextJS - client vs Server site rendering
 Caching - improves app performance and reduces costs
 
 NextJS - App Router vs Pages Router
+
+Css - Cascading Stylesheet
+SASS - Syntactically Awesome Stylesheet
