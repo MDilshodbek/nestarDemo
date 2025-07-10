@@ -17,7 +17,7 @@ const TrendPropertyCard = () => {
       </Box>
       <Box className={"info"}>
         <strong className={"title"}>Kingston Buildings</strong>
-        <p className={"des"}>This is super view apartments</p>
+        <p className={"desc"}>This is super view apartments</p>
         <div className={"options"}>
           <div>
             <img src="/img/icons/bed.svg" alt="" />
@@ -40,7 +40,7 @@ const TrendPropertyCard = () => {
               <RemoveRedEyeIcon />
             </IconButton>
             <Typography className="view-cnt">100</Typography>
-            <IconButton color={"default"}>
+            <IconButton style={{ color: "red" }}>
               <FavoriteIcon />
             </IconButton>
             <Typography className="view-cnt">100</Typography>

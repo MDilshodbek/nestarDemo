@@ -10,14 +10,14 @@ const TopPropertyCard = () => {
       <Box
         className={"card-img"}
         style={{
-          backgroundImage: 'url("/img/banner/types/apartment.webp")',
+          backgroundImage: 'url("/img/banner/types/villa.webp")',
         }}
       >
         <div className={"price"}>$420,000</div>
       </Box>
       <Box className={"info"}>
         <strong className={"title"}>Run Will Building</strong>
-        <p className={"des"}>Seoul Gangnam Apartments</p>
+        <p className={"desc"}>Seoul Gangnam Apartments</p>
         <div className={"options"}>
           <div>
             <img src="/img/icons/bed.svg" alt="" />

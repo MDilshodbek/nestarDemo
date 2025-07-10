@@ -64,66 +64,6 @@
                 margin-right: 20px;
                 cursor: pointer;
               }
-              .swiper-top-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
-            }
-
-            .more-box {
-              display: flex;
-              flex-direction: row;
-              cursor: pointer;
-              align-items: center;
-
-              span {
-                color: #181a20;
-                font-family: $font;
-                font-size: 15px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-                text-transform: capitalize;
-              }
-
-              img {
-                margin-left: 10px;
-                width: 16px;
-                height: 16px;
-              }
-            }
-
-            .btn-box {
-              display: flex;
-              flex-direction: row;
-              button {
-                border-radius: 6px;
-                background: Orgba(255, 255, 255, 0.07);
-                color: #ffffff;
-                font-family: $font;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 28px;
-                text-transform: capitalize;
-                &:first-child {
-                  margin-right: 20px;
-                }
-                &.active {
-                  border: 1px solid #181a20;
-                  background: #fff;
-                  color: #181a20;
-                  font-family: $font;
-                  font-size: 14px;
-                  font-style: normal;
-                  font-weight: 500;
-                  line-height: 28px;
-                }
-              }
             }
           }
         }
@@ -344,34 +284,6 @@
                 margin-left: 10px;
                 width: 16px;
                 height: 16px;
-              }
-            }
-            .btn-box {
-              display: flex;
-              flex-direction: row;
-              button {
-                border-radius: 6px;
-                background: Orgba(255, 255, 255, 0.07);
-                color: #ffffff;
-                font-family: $font;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 28px;
-                text-transform: capitalize;
-                &:first-child {
-                  margin-right: 20px;
-                }
-                &.active {
-                  border: 1px solid #181a20;
-                  background: #fff;
-                  color: #181a20;
-                  font-family: $font;
-                  font-size: 14px;
-                  font-style: normal;
-                  font-weight: 500;
-                  line-height: 28px;
-                }
               }
             }
           }
@@ -616,14 +528,6 @@
               .swiper-pagination-bullet.swiper-pagination-bullet-active {
                 background: #000000;
               }
-              .swiper-trend-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-trend-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
               .swiper-top-next {
                 margin-left: 20px;
                 cursor: pointer;
@@ -631,34 +535,6 @@
               .swiper-top-prev {
                 margin-right: 20px;
                 cursor: pointer;
-              }
-            }
-            .btn-box {
-              display: flex;
-              flex-direction: row;
-              button {
-                border-radius: 6px;
-                background: Orgba(255, 255, 255, 0.07);
-                color: #ffffff;
-                font-family: $font;
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 28px;
-                text-transform: capitalize;
-                &:first-child {
-                  margin-right: 20px;
-                }
-                &.active {
-                  border: 1px solid #181a20;
-                  background: #fff;
-                  color: #181a20;
-                  font-family: $font;
-                  font-size: 14px;
-                  font-style: normal;
-                  font-weight: 500;
-                  line-height: 28px;
-                }
               }
             }
           }

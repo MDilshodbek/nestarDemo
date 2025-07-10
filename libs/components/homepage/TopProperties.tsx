@@ -25,7 +25,9 @@ const TopProperties = ({ initialInput, ...props }: any) => {
           </Box>
         </Stack>
         <Stack className={"card-box"}>
-          <Swiper
+          {topProperties.length === 0 ? (
+             <Box className={"empty-list"}>Top Property is Empty</Box>
+          ) : (<Swiper
             className={"top-property-swiper"}
             slidesPerView={"auto"}
             spaceBetween={15}
@@ -44,7 +46,7 @@ const TopProperties = ({ initialInput, ...props }: any) => {
                 </SwiperSlide>
               );
             })}
-          </Swiper>
+          </Swiper>)}
         </Stack>
       </Stack>
     </Stack>

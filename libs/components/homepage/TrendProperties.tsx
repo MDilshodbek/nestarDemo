@@ -28,7 +28,7 @@ const TrendProperties = () => {
         </Stack>
         <Stack className={"card-box"}>
           {trendProperties.length === 0 ? (
-            <Box className={"empty-list"}>Trends Empty</Box>
+            <Box className={"empty-list"}>Trends are Empty</Box>
           ) : (
             <Swiper
               className={"trend-property-swiper"}
